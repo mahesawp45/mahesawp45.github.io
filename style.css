@@ -1,0 +1,522 @@
+html *{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    background-image: url(img/geometrical-pattern-01-remix.svg);
+    background-repeat: repeat;
+    background-size: 20%;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+/* Tombol Swipe Up */
+.swipeUp{
+  color: #212529;
+  opacity: 0.5;
+}
+.swipeUp:hover {
+  color: #ffc107;
+  opacity: 1;
+}
+/* Akhir Tombol Swipe Up */
+
+.navbar {
+  transition: 0.15s linear;
+}
+
+/*HOME*/
+    .home {
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        background-image: url(img/2.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
+        
+    }
+
+    .home .banner {
+        margin-top: 130px;
+
+    }
+
+    .home .sizeGambarCarousel {
+        margin: 30px;
+    }
+
+    .home .tittleBanner {
+        font-size: 15px;
+    }
+
+    .home h1 {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    .service{
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .service .bgRow1 {
+        height: auto;
+        background: rgb(255, 193, 7);
+    }
+
+    .service .bgRow2 {
+        height: auto;
+        background: #212529;
+    }
+
+    .service .tittleService {
+       font-family: 'Roboto Mono', monospace;
+       text-shadow: 0 5px 5px #000;
+    }
+    
+/*Akhir HOME*/
+
+
+
+/*SPACE TRAVEL*/
+    .space-travel {
+        padding-top: 100px;
+    }
+
+    .destination .bgRow1 {
+        height: auto;
+        background: rgb(255, 193, 7);
+    }
+
+    .destination .bgRow2 {
+        height: auto;
+        background: #212529;
+    }
+
+    .destination .tittleDestination {
+       margin: auto;
+       padding: auto;
+       font-family: 'Roboto Mono', monospace;
+    }
+/*Akhir SPACE TRAVEL*/
+
+/*BIG RESEARCH*/
+
+  .research {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/big-research/bg.jpg);
+    background-repeat: no-repeat;
+    overflow: auto;
+    line-height: 0;
+    object-fit: covers;
+    align-content: center;
+    
+  }
+    /*Carousel*/
+    .owl-carousel a {
+      text-decoration: none;
+      color :rgba(255,255,255,.55);
+    }
+
+    .owl-carousel a:hover {
+      transition: 0.5s;
+      color: #fff;
+    }
+
+    .owl-carousel .image-carousel {
+      object-fit: cover;
+      align-content: center;
+    }
+
+    .owl-carousel .image-carousel:hover {
+      transition: 0.20s;
+      transform: scale(110%);
+    }
+
+    .owl-carousel .owl-prev {
+      left: -30px;
+    }
+
+    .owl-carousel .owl-next {
+      right: -30px;
+    }
+
+    .owl-prev , .owl-next {
+      position: absolute;
+      top : 50%;
+    }
+    
+    .owl-prev span, .owl-next span{
+      font-size: 55px;
+    }
+
+    /* .owl-dot .active span{
+      background: #ffc107;
+    }
+
+    .owl-dots span{
+      background: #212529;
+    } */
+
+    /* .owl-carousel .overlayInfo{
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    .owl-carousel .overlayInfo:target{
+      background-color: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+    } */
+
+    /*Akhir Carousel*/
+
+
+
+    /*Overview*/
+        .overview {
+            margin-top: 80px;
+            width: auto;
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .overview .tittleOverview {
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+
+        .overview .contentOverview {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .overview p {
+            font-size: 15px;
+            text-align: justify;
+        }
+        
+        .overview .numberRoman {
+            font-family: 'Gideon Roman', cursive;
+        }
+
+        .rotation{
+            animation : rotation 28s linear infinite;
+        }
+
+            @keyframes rotation {
+                from {transform: rotate(0deg);}
+                to {transform: rotate(360deg);}
+            }
+        
+          .rotation:hover{
+              animation : scale 3s linear forwards;
+          }
+          @keyframes scale {
+            from {transform: scale(100%);}
+            to {transform: scale(0%);}
+          }
+
+
+          
+    /*AKhir Overview*/
+
+/*BIG RESEARCH*/
+
+
+/*ABOUT-US*/
+    .about-us .visi-misi p{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .team {
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+
+    }
+/*AKhir Email*/
+
+
+/*CONTACT US*/
+    .contact-us {
+        padding-top: 100px;
+    }
+
+    .contact-us .bgForm{
+        width: auto;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .contact-us .row {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+/*AKhir CONTACT US*/
+
+
+/*Email*/
+    .email {
+        text-align: justify;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .email .subscribe {
+        font-size: 12px;
+    }
+/*AKhir Email*/
+
+/*Footer*/
+    footer .copy {
+        font-size: 10px;
+    }
+
+    footer .nonLink {
+        text-decoration: none;
+        color :rgba(255,255,255,.55);
+    }
+
+    footer p {
+        text-align: justify;
+    }
+    footer ul {
+        padding-left: 0;
+    }
+
+    footer ul li {
+        list-style: none;
+    }
+
+    .nonLink:hover {
+        transition: 0.5s;
+        color: #fff;
+    }
+
+    footer  .love {
+        color :rgba(255,255,255,.55);
+    }
+
+    footer .love:hover {
+        transition: 0.5s;
+        color: red;
+    }
+/*AKhir Footer*/
+
+
+
+/*CAROUSEL TESTIMONI*/
+.slider {
+    width: 100%;
+  }
+  .slider input {
+    display: none;
+  }
+  .testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 350px;
+    perspective: 1000px;
+    overflow: hidden;
+  }
+  .testimonials .item {
+    top: 0;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #212529;
+    padding: 30px;
+    width: 450px;
+    height: 310px;
+    transition: transform 0.4s;
+    -webkit-transform-style: preserve-3d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .testimonials .item img {
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid #3B344D;
+  }
+  .testimonials .item p {
+    color: #ddd;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .testimonials .item span {
+    color: #ddd;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dots label {
+    display: block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #212529;
+    margin: 7px;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  /* First */
+  #t-1:checked ~ .dots label[for="t-1"] {
+    transform: scale(2);
+    background-color: #ffc107;
+  }
+  #t-1:checked ~ .dots label[for="t-2"] {
+    transform: scale(1.5);
+  }
+  #t-1:checked ~ .testimonials label[for="t-1"] {
+    z-index: 4;
+  }
+  #t-1:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
+    z-index: 3;
+  }
+  #t-1:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
+    z-index: 2;
+  }
+  #t-1:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(900px) translateZ(-270px) rotateY(-35deg);
+    z-index: 1;
+  }
+  #t-1:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(1200px) translateZ(-360px) rotateY(-45deg);
+  }
+  
+  /* Second */
+  #t-2:checked ~ .dots label[for="t-1"] {
+    transform: scale(1.5);
+  }
+  #t-2:checked ~ .dots label[for="t-2"] {
+    transform: scale(2);
+    background-color: #ffc107;
+  }
+  #t-2:checked ~ .dots label[for="t-3"] {
+    transform: scale(1.5);
+  }
+  #t-2:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
+  }
+  #t-2:checked ~ .testimonials label[for="t-2"] {
+    z-index: 3;
+  }
+  #t-2:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
+    z-index: 2;
+  }
+  #t-2:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
+    z-index: 1;
+  }
+  #t-2:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(900px) translateZ(-270px) rotateY(-35deg);
+  }
+  
+  /* Third */
+  #t-3:checked ~ .dots label[for="t-2"] {
+    transform: scale(1.5);
+  }
+  #t-3:checked ~ .dots label[for="t-3"] {
+    transform: scale(2);
+    background-color: #ffc107;
+  }
+  #t-3:checked ~ .dots label[for="t-4"] {
+    transform: scale(1.5);
+  }
+  #t-3:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-600px) translateZ(-180px) rotateY(25deg);
+  }
+  #t-3:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
+  }
+  #t-3:checked ~ .testimonials label[for="t-3"] {
+    z-index: 3;
+  }
+  #t-3:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
+    z-index: 2;
+  }
+  #t-3:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(600px) translateZ(-180px) rotateY(-25deg);
+  }
+  
+  /* Fourth */
+  #t-4:checked ~ .dots label[for="t-3"] {
+    transform: scale(1.5);
+  }
+  #t-4:checked ~ .dots label[for="t-4"] {
+    transform: scale(2);
+    background-color: #ffc107;
+  }
+  #t-4:checked ~ .dots label[for="t-5"] {
+    transform: scale(1.5);
+  }
+  #t-4:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-900px) translateZ(-270px) rotateY(35deg);
+  }
+  #t-4:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(-600px) translateZ(-180px) rotateY(25deg);
+  }
+  #t-4:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
+    z-index: 2;
+  }
+  #t-4:checked ~ .testimonials label[for="t-4"] {
+    z-index: 3;
+  }
+  #t-4:checked ~ .testimonials label[for="t-5"] {
+    transform: translateX(300px) translateZ(-90px) rotateY(-15deg);
+  }
+  
+  /* Fifth */
+  #t-5:checked ~ .dots label[for="t-4"] {
+    transform: scale(1.5);
+  }
+  #t-5:checked ~ .dots label[for="t-5"] {
+    transform: scale(2);
+    background-color: #ffc107;
+  }
+  #t-5:checked ~ .testimonials label[for="t-1"] {
+    transform: translateX(-1200px) translateZ(-360px) rotateY(45deg);
+  }
+  #t-5:checked ~ .testimonials label[for="t-2"] {
+    transform: translateX(-900px) translateZ(-270px) rotateY(35deg);
+    z-index: 1;
+  }
+  #t-5:checked ~ .testimonials label[for="t-3"] {
+    transform: translateX(-600px) translateZ(-180px) rotateY(25deg);
+    z-index: 2;
+  }
+  #t-5:checked ~ .testimonials label[for="t-4"] {
+    transform: translateX(-300px) translateZ(-90px) rotateY(15deg);
+    z-index: 3;
+  }
+  #t-5:checked ~ .testimonials label[for="t-5"] {
+    z-index: 4;
+  }
