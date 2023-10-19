@@ -3,4 +3,4 @@
 Project UAS Perancangan WEB semester 3
 
 ## Link
-https://mahesawp45.github.io/
+<a href="https://mahesawp45.github.io/" target="_blank">To Site</a>
